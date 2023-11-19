@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-straight/css/uicons-solid-straight.css');
+
+.nav-bar{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color: coral;
+}
+
+.anchor{
+    text-decoration: none;
+}
+
+.nav-list{
+    list-style: none;
+    color: white;
+    font-size: x-large;
+    padding-right: 25px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.nav-list:hover{
+    color: black;
+}
+
+.logo{
+    margin-top: 10px;
+    padding-right: 3px;
+}
+
+.img{
+    position: absolute;
+    left: 705px;
+    top: 80px;
+}
+
+.name{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.7rem;
+    margin-bottom: 0px;
+}
+
+.sp{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    color: coral;
+}
+
+.logo1{
+    color: coral;
+}
+
+.intro{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.head{
+    color: coral;
+    font-size: 3.7rem;
+}
+
+.info{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+.media{
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 110px;
+}
+
+.btn{
+    background-color: cornflowerblue;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 5px;
+    font-size: larger;
+}
+
+.btn:hover{
+    color: black;
+}
+
+.para{
+    width: 54%;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icons{
+    padding-right: 5px;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.line{
+    width: 150px;
+    height: 3px;
+    background-color: black;
+    margin-top: 0;
+}
+
+.l{
+    height: 3px;
+    background-color: black;
+}
+
+.card{
+    width: 24%;
+    display: inline-block;
+    margin-left: 85px;
+    box-shadow: 2px 2px 20px black;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.card-img{
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card-title{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: coral;
+    margin-bottom: 0px;
+}
+
+.card-text{
+    width: 270px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.bar{
+    width: 93%;
+    height: 15px;
+    background-color: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.end{
+    position: relative;
+    top: 17px;
+    left: 87%;
+    width: 10%;
+    height: 20px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+.end2{
+    position: relative;
+    top: 17px;
+    left: 45%;
+    width: 10%;
+    height: 20px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+.level{
+    padding-left: 80%;
+    color: blue;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.level2{
+    padding-left: 34%;
+    color: blue;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.line2{
+    width: 100px;
+    height: 2px;
+    background-color: black;
+}
+
+.lev-head{
+    text-align: center;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0px;
+}
+
+.card-container{
+    margin-top: 100px;
+}
+
+.con{
+    display: flex;
+}
+
+.foot-title{
+    list-style: none;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: coral;
+}
+
+.foot-copy{
+    padding-left: 20px;
+    list-style: none;
+    padding-top: 5px;
+}
+
+.social{
+    list-style: none;
+}
+
+.back{
+    list-style: none;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.back-nav{
+    display: flex;
+    padding-left: 540px;
+}
+
+.about-head{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0px;
+    font-size: 4rem;
+    color: white;
+}
+
+.ab-line{
+    width: 300px;
+    height: 3px;
+    background-color: black;
+    border: 0px;
+}
+
+.about-logo{
+    background-color: cornflowerblue;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.me{
+    color: yellow;
+}
+
+.about-para{
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.heighlight{
+    color: coral;
+}
+
+.about-all{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.resume{
+    width: 100%;
+    height: 1550px;
+}
+
+.gen{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.des1{
+    font-size: 5rem;
+    position: absolute;
+    top: 100px;
+}
+
+.des2{
+    font-size: 5rem;
+    position: absolute;
+    top: 220px;
+    left: 200px;
+}
+
+.des3{
+    font-size: 5rem;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.des4{
+    font-size: 5rem;
+    position: absolute;
+    top: 260px;
+    left: 570px;
+}
+
+.des5{
+    font-size: 5rem;
+    position: absolute;
+    top: 100px;
+    left: 730px;
+}
+
+.des6{
+    font-size: 5rem;
+    position: absolute;
+    top: 220px;
+    left: 940px;
+}
+
+.des7{
+    font-size: 5rem;
+    position: absolute;
+    top: 100px;
+    left: 1120px;
+}
+
+.resume{
+    margin-bottom: 100px;
+}
+
+.contact-logo{
+    background-color: limegreen;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.contact-all{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 200px;
+}
+
+.projects-logo{
+    background-color: lightcoral;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.pro-title{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 1050px) {
+    .name{
+        font-size: 3rem;
+    }
+
+    .head{
+        font-size: 3rem;
+    }
+
+    .img{
+        width: 351px;
+        height: 350px;
+        left: 651px;
+        top: 105px;
+    }
+
+    .info{
+        font-size: 1.3rem;
+    }
+
+    .sp{
+        font-size: 1.3rem;
+    }
+
+    .back-nav{
+        padding-left: 0px;
+        position: relative;
+        left: 370px;
+    }
+
+    .card{
+        width: 22%;
+    }
+
+    .card-text{
+        width: 200px;
+    }
+
+    .level{
+        padding-left: 74%;
+    }
+
+    .des6{
+        left: 915px;
+    }
+
+    .des7{
+        display: none;
+    }
+}
